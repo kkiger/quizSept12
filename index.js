@@ -1,17 +1,19 @@
-var fullName = function(firstName, lastName) {
-  console.log("Their full name is" + firstName + lastName)
-};
-fullName(kali, kiger)
-
-var people [{
-  name: "kali"
+var people =[{
+  firstName: "Kali";
+  lastName: "Kiger";
 },{
-  name: "andy"
-}{
-  name: "whitney"
+  firstName: "Rachael";
+  lastName: "Denis";
+},{
+  firstName: "Whitney";
+  lastName: "Young";
 }];
 
+var fullName = function() {
+  console.log("Their full name is" + firstName + lastName)
+};
+fullName(people)
 
-var returnArrayNamespeople = people.map(function(name){
-  return name
-}
+
+
+
