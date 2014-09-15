@@ -1,11 +1,16 @@
 
-var people = ["Kali", "Kiger"];
+var people =[{
+  firstName: "Kali";
+  lastName: "Kiger";
+},{
+  firstName: "Rachael";
+  lastName: "Denis";
+},{
+  firstName: "Ted";
+  lastName: "Henderson";
+}];
 
 var fullName = function() {
-  console.log("Full name is " + people[0] + " " + people[1]);
+  console.log("Their full name is" + firstName + lastName)
 };
-
-fullName(people);
-
-
-
+fullName(people)
