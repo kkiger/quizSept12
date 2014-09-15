@@ -1,18 +1,11 @@
-var people = {{
-  'firstName': 'kali'
-  'lastName': 'kiger'
-},{
-  'firstName': 'kali'
-  'lastName': 'kiger'
-}};
+
+var people = ["Kali", "Kiger"];
+
 var fullName = function() {
-  console.log("Their full names are " + people[0].firstName + "and" + people[1].firstName;
+  console.log("Full name is " + people[0] + " " + people[1]);
 };
+
 fullName(people);
 
-var promise = {
-  'var'  : 'text',
-  'array': [1, 2, 3, 4]
-};
 
-console.log(promise['array']);
+
