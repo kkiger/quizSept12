@@ -5,8 +5,8 @@ var people =[{
   firstName: "Rachael";
   lastName: "Denis";
 },{
-  firstName: "Whitney";
-  lastName: "Young";
+  firstName: "Ted";
+  lastName: "Henderson";
 }];
 
 var fullName = function() {
